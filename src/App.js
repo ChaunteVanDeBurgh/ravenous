@@ -23,7 +23,7 @@ class App extends Component {
       <div className="App">
         <h1>ravenous</h1>
         <SearchBar />
-        <BusinessList />
+        <BusinessList businesses={businesses} />
       </div>
     );
   }
