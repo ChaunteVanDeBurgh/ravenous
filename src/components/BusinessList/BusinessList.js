@@ -11,7 +11,7 @@ class BusinessList extends React.Component {
 						function(business) {
 							return <Business business={business} />;
 						}
-					);
+					)
 				}
 			</div>
 		);
